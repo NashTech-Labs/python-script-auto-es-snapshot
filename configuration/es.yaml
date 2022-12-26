@@ -1,0 +1,10 @@
+---
+config:
+  url: "http://localhost:9200"
+  repository: "es_backup_11022022"
+  bucket:
+    s3: "es-snapshot"
+    region: "us-east-1"
+    snapshot:
+      indices:
+        - "ultron-*"
